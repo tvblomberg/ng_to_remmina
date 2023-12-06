@@ -1,0 +1,16 @@
+[package]
+name = "ng_to_remmina"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde-xml-rs = "0.6.0"
+tera = "1.19.1"
+clap = "4.4.8"
+clap_derive = "4.4.7"
+
+[dev-dependencies]
+mockall = "0.11.4"
